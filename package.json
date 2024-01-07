@@ -1,0 +1,22 @@
+{
+  "name": "node-scraping",
+  "version": "1.0.0",
+  "description": "Web scrapping tool to make graph using signal strength measurement in a 4G router web portal",
+  "main": "server.js",
+  "author": "shashika05",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "jsdom": "^23.1.0",
+    "nodemon": "^3.0.2",
+    "playwright": "^1.40.1",
+    "puppeteer": "^21.7.0",
+    "request": "^2.88.2",
+    "xml-js": "^1.6.11"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
